@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
   name: "AMPopTip",
+  platforms: [.iOS(.v12)],
   products: [
     .library(
       name: "AMPopTip",
